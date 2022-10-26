@@ -26046,7 +26046,7 @@ a img.aligncenter {
 		color: var(--flame);
 	}
 
-	.ds .sf-menu > li > a:before {
+	/* .ds .sf-menu > li > a:before {
 		background: #fff;
 		bottom: 20px;
 		content: "";
@@ -26057,24 +26057,27 @@ a img.aligncenter {
 		right: 50%;
 		transition: 0.3s ease-in-out;
 		width: 0;
-	}
+	} */
 
 	.ds .sf-menu > li > a:hover {
 		color: var(--flame);
 	}
 
 	.ds .sf-menu > li > a:hover:after {
+	
 		-webkit-transform: rotateZ(90deg) translateY(-50%);
 		transform: rotateZ(90deg) translateY(-50%);
 		-webkit-transform-origin: top center;
 		transform-origin: top center;
 	}
 
-	.ds .sf-menu > li > a:hover:before {
+	/* .ds .sf-menu > li > a:hover:before {
+		bottom: 0;
 		left: 0;
 		right: 0;
 		width: 100%;
-	}
+		background-color: var(--dark-blue);
+	} */
 
 	.ls .sf-menu > li > a {
 		color: var(--dark-blue);
@@ -26184,11 +26187,11 @@ a img.aligncenter {
 	.sf-arrows .sf-with-ul:after {
 		content: "\f054";
 		font-family: "Font Awesome 5 Free", sans-serif;
-		font-size: 10px;
+		font-size: 15px;
 		font-weight: 600;
-		position: relative;
-		right: -8px;
-		top: 50%;
+		position: absolute;
+		right: -15px;
+		top: 54%;
 		-webkit-transform: translateY(-50%);
 		transform: translateY(-50%);
 		transition: 0.3s ease-out;
